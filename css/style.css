@@ -56,6 +56,7 @@
     display: inline-block;
     justify-items: right; }
   .main-index .conector, .main-productos .conector, .main-contacto .conector, .main-nosotros .conector, .main-terms .conector {
+    position: relative;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -177,11 +178,22 @@
     .main-index .demo .radio, .main-productos .demo .radio, .main-contacto .demo .radio, .main-nosotros .demo .radio, .main-terms .demo .radio {
       width: auto; } }
 
+@media (max-width: 1000px) {
+  .main-index .slidefotos .carousel .active img, .main-productos .slidefotos .carousel .active img, .main-contacto .slidefotos .carousel .active img, .main-nosotros .slidefotos .carousel .active img, .main-terms .slidefotos .carousel .active img {
+    height: 500px; } }
+
 @media (max-width: 720px) {
-  .notresponsive {
+  .main-index .notresponsive, .main-productos .notresponsive, .main-contacto .notresponsive, .main-nosotros .notresponsive, .main-terms .notresponsive {
     flex-direction: column; }
-    .notresponsive .card {
+    .main-index .notresponsive .card, .main-productos .notresponsive .card, .main-contacto .notresponsive .card, .main-nosotros .notresponsive .card, .main-terms .notresponsive .card {
       margin-bottom: 45px; } }
+
+@media (max-width: 530px) {
+  .main-index .slidefotos .carousel, .main-productos .slidefotos .carousel, .main-contacto .slidefotos .carousel, .main-nosotros .slidefotos .carousel, .main-terms .slidefotos .carousel {
+    width: 400px;
+    height: 250px; }
+    .main-index .slidefotos .carousel .active img, .main-productos .slidefotos .carousel .active img, .main-contacto .slidefotos .carousel .active img, .main-nosotros .slidefotos .carousel .active img, .main-terms .slidefotos .carousel .active img {
+      height: 250px; } }
 
 .footer {
   background-color: #406E8E;
