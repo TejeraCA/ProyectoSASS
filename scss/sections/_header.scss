@@ -1,0 +1,35 @@
+.navbar {
+    padding: 0px;
+    
+
+    .container-fluid {
+        background-color: $fondo;
+        flex-direction: row-reverse;
+        position: static;
+        .navbar-toggler {
+            background-color: white;
+        }
+
+        .logo {
+            height: 100px;
+            width: 100px;
+            margin-left: 50px;
+        }
+
+        .collapse {
+            .form-control {
+                input {
+                    margin: 5px;
+                }
+
+                .btn {
+                    margin: 2px;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
+
+/* RESPONSIVE */
+/*Desktop*/

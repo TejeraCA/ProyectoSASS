@@ -1,0 +1,169 @@
+.main-index {
+    background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-azul-salud_66029-25.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+
+    div {
+        .banner {
+            width: 100%;
+        }
+
+        .boton-banner {
+            padding: 5px;
+            margin: 5px;
+            margin-left: 75%;
+            border-radius: 15px;
+            margin-bottom: 35px;
+            background-color: #406E8E;
+            font-family: parrafo;
+            font-size: 25px;
+            box-shadow: #406E8E 4px 4px;
+            display: inline-block;
+            justify-items: right;
+        }
+    }
+
+    .conector {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            text-align: center;
+            margin-left: 0px;
+            background-color: rgba(71, 65, 84, 0.202);
+            color: #406E8E;
+            margin-top: 70px;
+            align-items: center;
+            border-radius: 10px;
+            width: 75%;
+        }
+
+        p {
+            font-family: parrafo;
+            color: #8EA8C3;
+            font-size: 25px;
+            text-align: center;
+            align-items: center;
+        }
+    }
+
+    .slidefotos {
+        display: flex;
+        justify-content: center;
+        background-color: #406e8e19;
+        padding: 50px;
+
+        .carousel {
+            display: flex;
+            justify-content: center;
+            width: 900px;
+            height: 500px;
+            overflow: hidden;
+            border-radius: 15px;
+        }
+    }
+
+    .noticias {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+
+        .congreso {
+            display: flex;
+            flex-direction: row;
+            padding: 40px;
+            background-color: rgba(143, 159, 176, 0.196);
+            align-items: flex-start;
+            border-radius: 15px;
+            justify-content: center;
+            height: 500px;
+
+            div {
+                a {
+                    margin: 400px;
+
+                    button {
+                        color: black;
+                        background-color: #406E8E;
+                        border-radius: 25px;
+                        width: 150px;
+                        height: 50px;
+                    }
+                }
+            }
+
+            p {
+                color: black;
+                font-size: 20px;
+                width: 600px;
+                margin-left: 55px;
+                font-family: sans-serif;
+            }
+
+            img {
+                width: 500px;
+                border-radius: 25px;
+            }
+
+            h2 {
+                font-size: 25px;
+                margin: 25px;
+                background-color: transparent;
+                color: #406E8E;
+                text-align: center;
+                width: 700px;
+            }
+        }
+    }
+
+    .inter {
+        text-align: center;
+        font-size: 25px;
+        font-family: parrafo;
+        color: #406E8E;
+        margin: 50px;
+    }
+
+    .demo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+
+        .radio {
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            margin: 25px;
+            padding: 5px;
+            text-align: center;
+            box-shadow: 1px 1px 5px 2px;
+            background-color: #406e8e39;
+
+            img {
+                border: #406E8E solid 2px;
+                height: 250px;
+                width: 250px;
+                border-radius: 5px;
+
+                
+            }
+            .ver-mas {
+                color: black;
+                background-color: #406E8E;
+                border-radius: 25px;
+                width: 150px;
+                height: 50px;
+            }
+        }
+    }
+}

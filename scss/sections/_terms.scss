@@ -1,0 +1,21 @@
+.main-terms {
+    @extend .main-index;
+    background-color: rgba(65, 150, 120, 0.348);
+    
+    .h2term{
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+       
+    }
+    h3 {
+        font-family: Tauri-Regular;
+        color: $tipico;
+        margin: 10px;
+    }
+    p {
+        
+        margin: 15px;
+    }
+}
+
