@@ -34,337 +34,337 @@ h2 {
 /* RESPONSIVE */
 /* Index */
 /* Mobile Last */
-@media (max-width:1440px) {
-    .noticias {
-        overflow: hidden;
-        width: 1440px;
-        height: auto;
-    }
-
-    .subcong {
-        width: 700px;
-    }
-
-}
-
-@media (max-width:1024px) {
-    .boton-banner {
-        width: 250px;
-        margin-left: 70%;
-        height: 40px;
-        display: flex;
-        justify-content: end;
-        font-size: 21px;
-    }
-
-    .noticias {
-        width: 1024px;
-        overflow: hidden;
-    }
-
-    .congreso {
-        display: flex;
-        overflow: hidden;
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: auto;
-        justify-content: flex-start;
-        align-content: space-between;
-        text-align: center;
-        width: 1024px;
-    }
-
-    .subcong {
-        width: 630px;
-    }
-
-    .subcong p {
-        width: 550px;
-        font-size: 12px;
-    }
-
-    .subcong h2 {
-        width: 600px;
-        font-size: 15px;
-    }
-
-    .congreso img {
-        width: 300px;
-    }
-
-    .demo {
-        flex-wrap: wrap;
-    }
-
-    .footer {
-        grid-template-columns: none;
-        justify-content: center;
-        grid-template-areas:
-            "inf link"
-            "map map"
-        ;
-    }
-
-    .info {
-        grid-area: inf;
-    }
-
-    .links {
-        grid-area: link;
-    }
-
-    .mapa {
-        grid-area: map;
-    }
-
-    .conector h2 {
-        padding-inline: 20px;
-        border-radius: 25px;
-    }
-}
-
-@media (max-width:768px) {
-    .boton-banner {
-        width: 250px;
-        margin-left: 60%;
-        height: 40px;
-        display: flex;
-        justify-content: end;
-        font-size: 21px;
-    }
-
-    .desplegable {
-        display: inline;
-    }
-
-    .noticias {
-        width: 768px;
-        overflow: hidden;
-    }
-
-    .congreso {
-        display: flex;
-        overflow: hidden;
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 700px;
-        justify-content: space-around;
-        width: 768px;
-    }
-
-    .congreso img {
-        margin: auto;
-        width: 350px;
-
-    }
-
-    .congreso h2 {
-        font-size: 25px;
-    }
-
-    .congreso p {
-        font-size: 15px;
-    }
-
-    .congreso div a button {
-        align-content: center;
-    }
-
-    .demo {
-        flex-wrap: wrap;
-    }
-
-    .footer {
-        grid-template-columns: none;
-        justify-content: center;
-        grid-template-areas:
-            "inf link"
-            "map map"
-        ;
-    }
-
-    .info {
-        grid-area: inf;
-    }
-
-    .links {
-        grid-area: link;
-    }
-
-    .mapa {
-        grid-area: map;
-    }
-
-    .conector h2 {
-        padding-inline: 20px;
-        border-radius: 25px;
-    }
-
-    .carousel-item img {
-        height: 550px !important;
-    }
-}
-
-@media (max-width: 425px) {
-
-    .noticias {
-        width: 425px;
-        overflow: hidden;
-    }
-
-    .congreso {
-        width: auto;
-        height: auto;
-        padding: 0px;
-    }
-
-    .congreso img {
-        width: 420px;
-        margin: 0px;
-
-    }
-
-    .subcong h2 {
-        margin: 0px;
-        width: 420px;
-    }
-
-    .subcong p {
-        width: 420px;
-        margin: 0px;
-    }
-
-    .congreso div a {
-        margin: 0px;
-    }
-
-    .footer {
-        width: 425px;
-        overflow: hidden;
-        grid-template-areas:
-            "inf"
-            "link"
-            "map"
-        ;
-    }
-
-    .mapa {
-        width: 400px;
-        height: 250px;
-    }
-
-    .boton-banner {
-        width: 150px;
-        font-size: 12px;
-    }
-
-
-    .slidefotos {
-        height: 250px;
-        padding: 0px;
-    }
-
-    .carousel-control-prev {
-        height: 250px;
-    }
-
-    .carousel-control-next {
-        height: 250px;
-    }
-
-    .carouse-inner {
-        height: 250px;
-        width: 250px;
-
-    }
-
-    .carousel-item img {
-        height: 250px !important;
-    }
-
-
-}
-
-/* Responsive Productos */
-
-@media (max-width: 1440px) {
-    .filtro {
-        padding: 0px;
-        width: 250px;
-    }
-
-    .container-fluid {
-        width: 1440px;
-    }
-
-    .articulo h2 {
-        font-size: 55px;
-        margin-left: 120px;
-        margin-right: 100px;
-    }
-
-    .herramienta {
-        width: 270px;
-    }
-
-
-    .grilla-productos {
-        width: 1240px;
-    }
-
-    .buscar {
-        width: 190px;
-    }
-
-    .categorias {
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 768px) {
-
-
-
-    .filtro {
-        display: none;
-    }
-
-    .dropdown {
-        color: #2c658e;
-    }
-
-    .articulo {
-        width: 768px;
-    }
-
-    .grilla-productos {
-        width: 768px;
-    }
-
-    .dropdown {
-        display: block;
-        color: #2c658e;
-    }
-
-    .articulo h2 {
-        width: 450px;
-        font-size: 35px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 425px) {
-    .articulo {
-        width: 425px;
-    }
-
-    .grilla-productos {
-        width: 425px;
-    }
-
-    .articulo h2 {
-        width: 300px;
-        font-size: 20px;
-        text-align: center;
-    }
-}
+// @media (max-width:1540px) {
+//     .noticias {
+//         overflow: hidden;
+//         width: 1440px;
+//         height: auto;
+//     }
+
+//     .subcong {
+//         width: 700px;
+//     }
+
+// }
+
+// @media (max-width:1024px) {
+//     .boton-banner {
+//         width: 250px;
+//         margin-left: 70%;
+//         height: 40px;
+//         display: flex;
+//         justify-content: end;
+//         font-size: 21px;
+//     }
+
+//     .noticias {
+//         width: 1024px;
+//         overflow: hidden;
+//     }
+
+//     .congreso {
+//         display: flex;
+//         overflow: hidden;
+//         flex-direction: row;
+//         flex-wrap: wrap;
+//         height: auto;
+//         justify-content: flex-start;
+//         align-content: space-between;
+//         text-align: center;
+//         width: 1024px;
+//     }
+
+//     .subcong {
+//         width: 630px;
+//     }
+
+//     .subcong p {
+//         width: 550px;
+//         font-size: 12px;
+//     }
+
+//     .subcong h2 {
+//         width: 600px;
+//         font-size: 15px;
+//     }
+
+//     .congreso img {
+//         width: 300px;
+//     }
+
+//     .demo {
+//         flex-wrap: wrap;
+//     }
+
+//     .footer {
+//         grid-template-columns: none;
+//         justify-content: center;
+//         grid-template-areas:
+//             "inf link"
+//             "map map"
+//         ;
+//     }
+
+//     .info {
+//         grid-area: inf;
+//     }
+
+//     .links {
+//         grid-area: link;
+//     }
+
+//     .mapa {
+//         grid-area: map;
+//     }
+
+//     .conector h2 {
+//         padding-inline: 20px;
+//         border-radius: 25px;
+//     }
+// }
+
+// @media (max-width:768px) {
+//     .boton-banner {
+//         width: 250px;
+//         margin-left: 60%;
+//         height: 40px;
+//         display: flex;
+//         justify-content: end;
+//         font-size: 21px;
+//     }
+
+//     .desplegable {
+//         display: inline;
+//     }
+
+//     .noticias {
+//         width: 768px;
+//         overflow: hidden;
+//     }
+
+//     .congreso {
+//         display: flex;
+//         overflow: hidden;
+//         flex-direction: column;
+//         flex-wrap: wrap;
+//         height: 700px;
+//         justify-content: space-around;
+//         width: 768px;
+//     }
+
+//     .congreso img {
+//         margin: auto;
+//         width: 350px;
+
+//     }
+
+//     .congreso h2 {
+//         font-size: 25px;
+//     }
+
+//     .congreso p {
+//         font-size: 15px;
+//     }
+
+//     .congreso div a button {
+//         align-content: center;
+//     }
+
+//     .demo {
+//         flex-wrap: wrap;
+//     }
+
+//     .footer {
+//         grid-template-columns: none;
+//         justify-content: center;
+//         grid-template-areas:
+//             "inf link"
+//             "map map"
+//         ;
+//     }
+
+//     .info {
+//         grid-area: inf;
+//     }
+
+//     .links {
+//         grid-area: link;
+//     }
+
+//     .mapa {
+//         grid-area: map;
+//     }
+
+//     .conector h2 {
+//         padding-inline: 20px;
+//         border-radius: 25px;
+//     }
+
+//     .carousel-item img {
+//         height: 550px !important;
+//     }
+// }
+
+// @media (max-width: 425px) {
+
+//     .noticias {
+//         width: 425px;
+//         overflow: hidden;
+//     }
+
+//     .congreso {
+//         width: auto;
+//         height: auto;
+//         padding: 0px;
+//     }
+
+//     .congreso img {
+//         width: 420px;
+//         margin: 0px;
+
+//     }
+
+//     .subcong h2 {
+//         margin: 0px;
+//         width: 420px;
+//     }
+
+//     .subcong p {
+//         width: 420px;
+//         margin: 0px;
+//     }
+
+//     .congreso div a {
+//         margin: 0px;
+//     }
+
+//     .footer {
+//         width: 425px;
+//         overflow: hidden;
+//         grid-template-areas:
+//             "inf"
+//             "link"
+//             "map"
+//         ;
+//     }
+
+//     .mapa {
+//         width: 400px;
+//         height: 250px;
+//     }
+
+//     .boton-banner {
+//         width: 150px;
+//         font-size: 12px;
+//     }
+
+
+//     .slidefotos {
+//         height: 250px;
+//         padding: 0px;
+//     }
+
+//     .carousel-control-prev {
+//         height: 250px;
+//     }
+
+//     .carousel-control-next {
+//         height: 250px;
+//     }
+
+//     .carouse-inner {
+//         height: 250px;
+//         width: 250px;
+
+//     }
+
+//     .carousel-item img {
+//         height: 250px !important;
+//     }
+
+
+// }
+
+// /* Responsive Productos */
+
+// @media (max-width: 1440px) {
+//     .filtro {
+//         padding: 0px;
+//         width: 250px;
+//     }
+
+//     .container-fluid {
+//         width: 1440px;
+//     }
+
+//     .articulo h2 {
+//         font-size: 55px;
+//         margin-left: 120px;
+//         margin-right: 100px;
+//     }
+
+//     .herramienta {
+//         width: 270px;
+//     }
+
+
+//     .grilla-productos {
+//         width: 1240px;
+//     }
+
+//     .buscar {
+//         width: 190px;
+//     }
+
+//     .categorias {
+//         font-size: 25px;
+//     }
+// }
+
+// @media (max-width: 768px) {
+
+
+
+//     .filtro {
+//         display: none;
+//     }
+
+//     .dropdown {
+//         color: #2c658e;
+//     }
+
+//     .articulo {
+//         width: 768px;
+//     }
+
+//     .grilla-productos {
+//         width: 768px;
+//     }
+
+//     .dropdown {
+//         display: block;
+//         color: #2c658e;
+//     }
+
+//     .articulo h2 {
+//         width: 450px;
+//         font-size: 35px;
+//         text-align: center;
+//     }
+// }
+
+// @media (max-width: 425px) {
+//     .articulo {
+//         width: 425px;
+//     }
+
+//     .grilla-productos {
+//         width: 425px;
+//     }
+
+//     .articulo h2 {
+//         width: 300px;
+//         font-size: 20px;
+//         text-align: center;
+//     }
+// }

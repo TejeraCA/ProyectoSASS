@@ -5,6 +5,10 @@
     height: 100%;
     width: 100%;
 
+    .notresponsive {
+        display: none;
+    }
+
     div {
         .banner {
             width: 100%;
@@ -155,8 +159,9 @@
                 width: 250px;
                 border-radius: 5px;
 
-                
+
             }
+
             .ver-mas {
                 color: black;
                 background-color: #406E8E;
@@ -164,6 +169,46 @@
                 width: 150px;
                 height: 50px;
             }
+        }
+    }
+}
+
+@media (max-width:1540px) {
+    .main-index {
+        .notresponsive {
+            display: flex;
+            .card {
+                .notipic {
+                    width: auto;
+                    height: 340px;
+                    overflow: hidden;
+                    
+                }
+            }
+        }
+        .noticias {
+            display: none;
+        }
+        
+    }
+}
+
+@media (max-width: 930px) {
+    .main-index {
+        .demo {
+            flex-wrap: wrap;
+            .radio {
+                width: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .notresponsive {
+        flex-direction: column;
+        .card {
+            margin-bottom: 45px;
         }
     }
 }

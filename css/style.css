@@ -39,6 +39,8 @@
   background-repeat: repeat;
   height: 100%;
   width: 100%; }
+  .main-index .notresponsive, .main-productos .notresponsive, .main-contacto .notresponsive, .main-nosotros .notresponsive, .main-terms .notresponsive {
+    display: none; }
   .main-index div .banner, .main-productos div .banner, .main-contacto div .banner, .main-nosotros div .banner, .main-terms div .banner {
     width: 100%; }
   .main-index div .boton-banner, .main-productos div .boton-banner, .main-contacto div .boton-banner, .main-nosotros div .boton-banner, .main-terms div .boton-banner {
@@ -159,6 +161,28 @@
         width: 150px;
         height: 50px; }
 
+@media (max-width: 1540px) {
+  .main-index .notresponsive, .main-productos .notresponsive, .main-contacto .notresponsive, .main-nosotros .notresponsive, .main-terms .notresponsive {
+    display: flex; }
+    .main-index .notresponsive .card .notipic, .main-productos .notresponsive .card .notipic, .main-contacto .notresponsive .card .notipic, .main-nosotros .notresponsive .card .notipic, .main-terms .notresponsive .card .notipic {
+      width: auto;
+      height: 340px;
+      overflow: hidden; }
+  .main-index .noticias, .main-productos .noticias, .main-contacto .noticias, .main-nosotros .noticias, .main-terms .noticias {
+    display: none; } }
+
+@media (max-width: 930px) {
+  .main-index .demo, .main-productos .demo, .main-contacto .demo, .main-nosotros .demo, .main-terms .demo {
+    flex-wrap: wrap; }
+    .main-index .demo .radio, .main-productos .demo .radio, .main-contacto .demo .radio, .main-nosotros .demo .radio, .main-terms .demo .radio {
+      width: auto; } }
+
+@media (max-width: 720px) {
+  .notresponsive {
+    flex-direction: column; }
+    .notresponsive .card {
+      margin-bottom: 45px; } }
+
 .footer {
   background-color: #406E8E;
   color: #CBF7ED;
@@ -196,6 +220,27 @@
       border-radius: 25px; }
   .footer .mapa {
     margin: 25px; }
+
+/* RESPONSIVE */
+@media (max-width: 1082px) {
+  .footer {
+    grid-template-columns: none;
+    justify-content: center;
+    grid-template-areas: "inf link" "map map"; }
+    .footer .info, .footer .links, .footer .mapa {
+      grid-area: inf; }
+    .footer .links {
+      grid-area: link; }
+    .footer .mapa {
+      grid-area: map; } }
+
+@media (max-width: 720px) {
+  .footer {
+    width: auto;
+    overflow: hidden;
+    grid-template-areas: "inf" "link" "map"; }
+    .footer .mapa {
+      width: 450px; } }
 
 .main-productos .desplegable {
   display: none; }
@@ -397,194 +442,3 @@ h2 {
 /* RESPONSIVE */
 /* Index */
 /* Mobile Last */
-@media (max-width: 1440px) {
-  .noticias {
-    overflow: hidden;
-    width: 1440px;
-    height: auto; }
-  .subcong {
-    width: 700px; } }
-
-@media (max-width: 1024px) {
-  .boton-banner {
-    width: 250px;
-    margin-left: 70%;
-    height: 40px;
-    display: flex;
-    justify-content: end;
-    font-size: 21px; }
-  .noticias {
-    width: 1024px;
-    overflow: hidden; }
-  .congreso {
-    display: flex;
-    overflow: hidden;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: auto;
-    justify-content: flex-start;
-    align-content: space-between;
-    text-align: center;
-    width: 1024px; }
-  .subcong {
-    width: 630px; }
-  .subcong p {
-    width: 550px;
-    font-size: 12px; }
-  .subcong h2 {
-    width: 600px;
-    font-size: 15px; }
-  .congreso img {
-    width: 300px; }
-  .demo {
-    flex-wrap: wrap; }
-  .footer {
-    grid-template-columns: none;
-    justify-content: center;
-    grid-template-areas: "inf link" "map map"; }
-  .info, .footer .links, .footer .mapa {
-    grid-area: inf; }
-  .links {
-    grid-area: link; }
-  .mapa {
-    grid-area: map; }
-  .conector h2 {
-    padding-inline: 20px;
-    border-radius: 25px; } }
-
-@media (max-width: 768px) {
-  .boton-banner {
-    width: 250px;
-    margin-left: 60%;
-    height: 40px;
-    display: flex;
-    justify-content: end;
-    font-size: 21px; }
-  .desplegable {
-    display: inline; }
-  .noticias {
-    width: 768px;
-    overflow: hidden; }
-  .congreso {
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 700px;
-    justify-content: space-around;
-    width: 768px; }
-  .congreso img {
-    margin: auto;
-    width: 350px; }
-  .congreso h2 {
-    font-size: 25px; }
-  .congreso p {
-    font-size: 15px; }
-  .congreso div a button {
-    align-content: center; }
-  .demo {
-    flex-wrap: wrap; }
-  .footer {
-    grid-template-columns: none;
-    justify-content: center;
-    grid-template-areas: "inf link" "map map"; }
-  .info, .footer .links, .footer .mapa {
-    grid-area: inf; }
-  .links {
-    grid-area: link; }
-  .mapa {
-    grid-area: map; }
-  .conector h2 {
-    padding-inline: 20px;
-    border-radius: 25px; }
-  .carousel-item img {
-    height: 550px !important; } }
-
-@media (max-width: 425px) {
-  .noticias {
-    width: 425px;
-    overflow: hidden; }
-  .congreso {
-    width: auto;
-    height: auto;
-    padding: 0px; }
-  .congreso img {
-    width: 420px;
-    margin: 0px; }
-  .subcong h2 {
-    margin: 0px;
-    width: 420px; }
-  .subcong p {
-    width: 420px;
-    margin: 0px; }
-  .congreso div a {
-    margin: 0px; }
-  .footer {
-    width: 425px;
-    overflow: hidden;
-    grid-template-areas: "inf" "link" "map"; }
-  .mapa {
-    width: 400px;
-    height: 250px; }
-  .boton-banner {
-    width: 150px;
-    font-size: 12px; }
-  .slidefotos {
-    height: 250px;
-    padding: 0px; }
-  .carousel-control-prev {
-    height: 250px; }
-  .carousel-control-next {
-    height: 250px; }
-  .carouse-inner {
-    height: 250px;
-    width: 250px; }
-  .carousel-item img {
-    height: 250px !important; } }
-
-/* Responsive Productos */
-@media (max-width: 1440px) {
-  .filtro {
-    padding: 0px;
-    width: 250px; }
-  .container-fluid {
-    width: 1440px; }
-  .articulo h2 {
-    font-size: 55px;
-    margin-left: 120px;
-    margin-right: 100px; }
-  .herramienta {
-    width: 270px; }
-  .grilla-productos {
-    width: 1240px; }
-  .buscar {
-    width: 190px; }
-  .categorias {
-    font-size: 25px; } }
-
-@media (max-width: 768px) {
-  .filtro {
-    display: none; }
-  .dropdown {
-    color: #2c658e; }
-  .articulo {
-    width: 768px; }
-  .grilla-productos {
-    width: 768px; }
-  .dropdown {
-    display: block;
-    color: #2c658e; }
-  .articulo h2 {
-    width: 450px;
-    font-size: 35px;
-    text-align: center; } }
-
-@media (max-width: 425px) {
-  .articulo {
-    width: 425px; }
-  .grilla-productos {
-    width: 425px; }
-  .articulo h2 {
-    width: 300px;
-    font-size: 20px;
-    text-align: center; } }

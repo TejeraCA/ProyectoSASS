@@ -56,3 +56,44 @@
     }
 
 }
+
+/* RESPONSIVE */
+@media (max-width: 1082px) {
+    .footer {
+        grid-template-columns: none;
+        justify-content: center;
+        grid-template-areas:
+            "inf link"
+            "map map"
+        ;
+
+        .info {
+            grid-area: inf;
+        }
+
+        .links {
+            grid-area: link;
+        }
+
+        .mapa {
+            grid-area: map;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .footer {
+        width: auto;
+        overflow: hidden;
+        grid-template-areas:
+            "inf"
+            "link"
+            "map"
+        ;
+
+        .mapa {
+            width: 450px;
+        
+        }
+    }
+}
