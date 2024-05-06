@@ -161,6 +161,9 @@
         border-radius: 25px;
         width: 150px;
         height: 50px; }
+        .main-index .demo .radio .ver-mas a, .main-productos .demo .radio .ver-mas a, .main-contacto .demo .radio .ver-mas a, .main-nosotros .demo .radio .ver-mas a, .main-terms .demo .radio .ver-mas a {
+          text-decoration: none;
+          color: aliceblue; }
 
 @media (max-width: 1540px) {
   .main-index .notresponsive, .main-productos .notresponsive, .main-contacto .notresponsive, .main-nosotros .notresponsive, .main-terms .notresponsive {
