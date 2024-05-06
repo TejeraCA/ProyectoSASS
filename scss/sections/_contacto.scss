@@ -43,5 +43,31 @@
                 background-color: #c2daecc6;
             }
         }
+        .producto {
+            margin: 10px;
+        }
+    }
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 410px) {
+    .main-contacto {
+        .contactos {
+            .form {
+                p{
+                    width: 250px;
+                }
+                input {
+                    width: 250px;
+                }
+                textarea {
+                    width: 250px;
+                }
+            }
+            .producto {
+                margin: 5px;
+            }
+        }      
     }
 }

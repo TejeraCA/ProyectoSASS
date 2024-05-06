@@ -254,6 +254,10 @@
     .footer .mapa {
       width: 450px; } }
 
+@media (max-width: 480px) {
+  .footer .mapa {
+    width: 350px; } }
+
 .main-productos .desplegable {
   display: none; }
   .main-productos .desplegable .arreglado {
@@ -305,8 +309,6 @@
     justify-content: space-evenly; }
     .main-productos .grilla-productos .articulo .centrado {
       color: #406E8E;
-      margin-left: 450px;
-      margin-right: 300px;
       margin-top: 50px;
       margin-bottom: 50px;
       background-color: #8ea8c356;
@@ -345,6 +347,34 @@
         width: 100px;
         height: 50px; }
 
+/* RESPONSIVE*/
+@media (max-width: 1350px) {
+  .main-productos .grilla-productos .articulo h2.centrado {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px; } }
+
+@media (max-width: 1030px) {
+  .main-productos .grilla-productos .filtro {
+    width: 250px;
+    padding: 5px; }
+    .main-productos .grilla-productos .filtro input.buscar {
+      width: 200px;
+      margin-left: 30px;
+      margin: 0px; }
+    .main-productos .grilla-productos .filtro .categorias {
+      width: 220px;
+      padding: 5px; }
+      .main-productos .grilla-productos .filtro .categorias a {
+        font-size: 22px; } }
+
+@media (max-width: 850px) {
+  .main-productos .desplegable {
+    display: block;
+    padding: 25px; }
+  .main-productos .grilla-productos .filtro {
+    display: none; } }
+
 .main-servicios {
   background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-azul-salud_66029-25.jpg);
   background-size: contain;
@@ -379,6 +409,19 @@
         text-decoration: none;
         color: black; }
 
+/* RESPONSIVE */
+@media (max-width: 840px) {
+  .main-servicios .tarjeta-grupo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .main-servicios .tarjeta-grupo .tarjeta-servicios .tarjeta-cuerpo {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main-servicios .tarjeta-grupo .tarjeta-servicios .tarjeta-cuerpo .extender {
+        width: 200px; } }
+
 .main-contacto .contactos {
   background-color: rgba(0, 0, 0, 0.288);
   display: flex;
@@ -405,6 +448,19 @@
       background-color: #c2daecc6; }
     .main-contacto .contactos .form textarea {
       background-color: #c2daecc6; }
+  .main-contacto .contactos .producto {
+    margin: 10px; }
+
+/*RESPONSIVE*/
+@media (max-width: 410px) {
+  .main-contacto .contactos .form p {
+    width: 250px; }
+  .main-contacto .contactos .form input {
+    width: 250px; }
+  .main-contacto .contactos .form textarea {
+    width: 250px; }
+  .main-contacto .contactos .producto {
+    margin: 5px; } }
 
 .main-nosotros .historia {
   display: flex;
@@ -424,9 +480,22 @@
     margin-bottom: 200px;
     color: #2c658e; }
   .main-nosotros .historia iframe {
-    width: 1300px;
-    height: 900px;
     margin: 25px; }
+
+/*RESPONSIVE*/
+@media (max-width: 1300px) {
+  .main-nosotros .historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px; }
+    .main-nosotros .historia p {
+      width: 100%;
+      text-align: center; } }
+
+@media (max-width: 580px) {
+  .main-nosotros .historia .story {
+    width: 350px; } }
 
 .main-terms {
   background-color: rgba(65, 150, 120, 0.348); }
@@ -440,16 +509,6 @@
     margin: 10px; }
   .main-terms p {
     margin: 15px; }
-
-h2 {
-  color: #CBF7ED;
-  text-align: right;
-  font-family: Tauri-Regular;
-  background-color: #8EA8C3;
-  font-size: 40px;
-  margin-left: 950px;
-  margin-right: 50px;
-  margin-right: 21px; }
 
 /* RESPONSIVE */
 /* Index */
