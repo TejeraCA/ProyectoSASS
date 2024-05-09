@@ -55,6 +55,13 @@
     box-shadow: #406E8E 4px 4px;
     display: inline-block;
     justify-items: right; }
+  .main-index h3, .main-productos h3, .main-contacto h3, .main-nosotros h3, .main-terms h3 {
+    font-family: Tauri-Regular;
+    color: #23395b;
+    margin: 25px;
+    text-align: center;
+    display: flex;
+    justify-items: center; }
   .main-index .conector, .main-productos .conector, .main-contacto .conector, .main-nosotros .conector, .main-terms .conector {
     position: relative;
     display: flex;
