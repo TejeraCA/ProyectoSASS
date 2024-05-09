@@ -17,6 +17,9 @@
         .card {
             background-color: $fondo;
             margin: 10px;
+            &:hover{
+                transform: scale(1.05);
+                transition: 0.3s;}
 
             img {
                 width: 100%;

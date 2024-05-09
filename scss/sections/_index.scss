@@ -29,10 +29,10 @@
 
         }
     }
-    h3 {
+    h1 {
     font-family: Tauri-Regular;
     color: $tipico;
-    margin:25px;
+    margin:50px;
     text-align: center;
     display: flex;
     justify-items: center;
@@ -162,6 +162,9 @@
             text-align: center;
             box-shadow: 1px 1px 5px 2px;
             background-color: #406e8e39;
+            &:hover{
+                transform: scale(1.05);
+                transition: 0.3s;}
 
             img {
                 border: #406E8E solid 2px;
